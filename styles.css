@@ -1,3 +1,21 @@
 #profile-pic {
     width: 66%;
+    box-shadow: 5px 5px #a9cccf;
+}
+
+.icon {
+    width: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+#content {
+    border: 0.5px solid #a9cccf;
+    padding: 10px;
 }
