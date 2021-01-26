@@ -3,6 +3,10 @@
     box-shadow: 5px 5px #a9cccf;
 }
 
+body {
+    background-color: #d9e7e8;
+}
+
 .icon {
     width: 30px;
 }
@@ -18,4 +22,14 @@ a:hover {
 #content {
     border: 0.5px solid #a9cccf;
     padding: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
