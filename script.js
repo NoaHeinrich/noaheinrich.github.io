@@ -10,3 +10,10 @@ function stickyBar() {
         navbar.classList.remove('sticky')
     }
 }
+
+function navigate(section) {
+    let sectionToNav = document.getElementById(section)
+    let currentSection = document.querySelector('.active')
+    currentSection.classList.replace('active', 'inactive')
+    sectionToNav.classList.replace('inactive', 'active')
+}

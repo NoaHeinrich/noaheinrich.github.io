@@ -33,3 +33,11 @@ a:hover {
     top: 0;
     width: 100%;
 }
+
+.active {
+    display: block;
+}
+
+.inactive {
+    display: none;
+}

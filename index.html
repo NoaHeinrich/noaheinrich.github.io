@@ -12,15 +12,15 @@
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <span class="navbar-brand mb-0 h1">Noa Heinrich</span> 
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Coding</a>
-            <a class="nav-link" href="#">Podcasting</a>
-            <a class="nav-link" href="#">Writing</a>
+            <a class="nav-link" aria-current="page" href="#" onClick="navigate('home')">Home</a>
+            <a class="nav-link" href="#" onClick="navigate('coding')">Coding</a>
+            <a class="nav-link" href="#" onClick="navigate('podcasting')">Podcasting</a>
+            <a class="nav-link" href="#" onClick="navigate('writing')">Writing</a>
         </div>
     </nav>
     <br>
     <div id="content" class="container">
-        <div class="row">
+        <div class="row active" id="home">
             <div class="col-sm"> 
                 <h1>Noa Heinrich</h1>
                 <h3>She/Her/Hers</h3>
@@ -37,6 +37,15 @@
                 </p>
             </div>                        
         </div>
+    </div>
+    <div class="row inactive" id="coding"> 
+        <p>Noa is proficient in Ruby, Ruby on Rails, Python, Django, HTML, CSS, JavaScript, React, Redux, AWS, and C#.</p>
+    </div>
+    <div class="row inactive" id="podcasting">
+        <p>Noa is an actor and producer of Tabletop Potluck</p>
+    </div>
+    <div class="row inactive" id="writing">
+        <p>Noa is a writer</p>
     </div>
 </body>
 </html>
